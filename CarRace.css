@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+}
+
+.street{
+	background-color:grey;
+	height: 300px;
+	width: 100%; 
+	margin-top: 200px;
+} 
+
+.line1 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	
+}
+
+.line2 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+
+.line3 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+
+.line4 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+.line5 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+
+.line6 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+.line7 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}.line8 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+.line9 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+.line10 {
+	background-color: yellow;
+	height: 15px;
+	width: 100px;
+	display: inline-block;
+	margin-top: 130px;
+	margin-left: 50px
+	
+}
+
+.lines{
+	margin-top: -90px;
+}
+.car1{
+	width: 100px;
+	height: 100px;
+	animation-name: car1move;
+	animation-duration: 5s;
+}
+
+
+.car2{
+	width: 100px;
+	height: 100px;
+	animation-name: car2move;
+	animation-duration: 6s;
+}
+
+
+.car1div{
+	width: 100px;
+	height: 100px;
+	margin-bottom: -50px;
+}
+.car2div{
+	width: 100px;
+	height: 100px;
+}
+
+@keyframes car1move{
+	from{margin-left: 0px;}
+	to{margin-left:1500px; }
+}
+
+@keyframes car2move{
+	from{margin-left: 0px;}
+	to{margin-left:1500px; }
+}

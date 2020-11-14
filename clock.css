@@ -1,0 +1,36 @@
+.smallcircle{
+	border: 15px solid skyblue;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-top: 250px;
+	margin-left: 550px;
+}
+
+.bigcircle{
+	border:15px solid skyblue;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 472px;
+	margin-top: -14px;
+}
+
+.line {
+	border:5px solid skyblue;
+	width: 2px;
+	height: 80px;
+	background-color: skyblue;
+	margin-left: 90px;
+	animation: rot 7s infinite ;
+	transform-origin: bottom center;
+}
+
+@keyframes rot{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
+.bigcircle div:hover{
+	animation-play-state: paused;
+}

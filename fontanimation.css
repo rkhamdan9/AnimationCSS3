@@ -1,0 +1,21 @@
+.main{
+	border:15px solid purple;
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+}
+
+.main h1{
+	text-align: center;
+	margin-top: 120px;
+	color: skyblue;
+	font-size:50px; 
+	animation: bon 3s infinite ;
+	}
+
+@keyframes bon{
+	from{font-size: 0;}
+	to{font-size:60px }
+}
